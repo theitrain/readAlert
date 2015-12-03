@@ -3,12 +3,12 @@ A flexible Python script that alerts you when a website has been updated via SMS
 
 ### Requirements
 Beautiful Soup
-```sh
+```
 pip install beautifulsoup4
 ```
 
 Twilio
-```sh
+```
 pip install twilio
 ```
 
@@ -22,7 +22,7 @@ You will need to have a Twilio account set up (a trial account will do for testi
 
 To use the script from the command line:
 
-```sh
+```
 python readAlert.py
 ```
 
