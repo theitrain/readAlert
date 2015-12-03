@@ -16,7 +16,15 @@ pip install twilio
 You will need to have a Twilio account set up (a trial account will do for testing). If you're not familiar with Beautiful Soup and accessing parts of the dom, check out their documentation.
 
 [Beautiful Soup Docs](http://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+
+
 [Twilio Docs](https://www.twilio.com/api/)
+
+To use the script from the command line:
+
+```sh
+python readAlert.py
+```
 
 ### Adapting
 You can easily adapt this script to scrape any site and send custom text messages.  This version keeps a crude log in a text file but expanding it to use a database would not take long if that fits your needs.
